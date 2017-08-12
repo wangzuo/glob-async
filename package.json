@@ -1,0 +1,25 @@
+{
+  "name": "glob-async",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangzuo/glob-async.git"
+  },
+  "author": "Wang Zuo <wzuoadjusted@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangzuo/glob-async/issues"
+  },
+  "homepage": "https://github.com/wangzuo/glob-async#readme",
+  "dependencies": {
+    "glob": "^7.1.2"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
