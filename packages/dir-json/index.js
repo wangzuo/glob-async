@@ -21,40 +21,43 @@ function readdir(dir) {
   });
 }
 
-async function walk(x, fn) {
-  if (fn && !fn(x)) return IGNORE;
-
-  const name = path.basename(x);
+async function walk(x, fn, s) {
   const stats = await stat(x);
+  const type = stats.isDirectory() ? 'directory' : 'file';
+  const r = path.relative(s, x);
+  const id = r ? `/${r}` : '/';
+  const data = fn ? await fn(id, type) : {};
 
-  if (stats.isDirectory()) {
+  if (data === false) return IGNORE;
+
+  if (type === 'directory') {
     const dir = {
-      type: 'directory',
-      name,
+      id,
+      type,
       children: []
     };
     const files = await readdir(x);
 
     for (const file of files) {
-      const child = await walk(path.join(x, file), fn);
+      const child = await walk(path.join(x, file), fn, s);
 
       if (child !== IGNORE) {
         dir.children.push(child);
       }
     }
 
-    return dir;
-  } else if (stats.isFile()) {
+    return typeof data !== 'undefined' ? Object.assign(dir, data) : dir;
+  } else if (type === 'file') {
     const file = {
-      type: 'file',
-      name
+      id,
+      type
     };
-    return file;
+    return typeof data !== 'undefined' ? Object.assign(file, data) : file;
   }
 }
 
 async function dirJSON(x, fn) {
-  return await walk(x, fn);
+  return await walk(x, fn, x);
 }
 
 module.exports = dirJSON;

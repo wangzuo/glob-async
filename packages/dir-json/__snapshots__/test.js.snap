@@ -4,7 +4,7 @@ exports[`directory 1`] = `
 Object {
   "children": Array [
     Object {
-      "name": "README.md",
+      "id": "/README.md",
       "type": "file",
     },
     Object {
@@ -14,76 +14,76 @@ Object {
             Object {
               "children": Array [
                 Object {
-                  "name": "test.js.snap",
+                  "id": "/packages/dir-json/__snapshots__/test.js.snap",
                   "type": "file",
                 },
               ],
-              "name": "__snapshots__",
+              "id": "/packages/dir-json/__snapshots__",
               "type": "directory",
             },
             Object {
-              "name": "index.js",
+              "id": "/packages/dir-json/index.js",
               "type": "file",
             },
             Object {
-              "name": "package.json",
+              "id": "/packages/dir-json/package.json",
               "type": "file",
             },
             Object {
-              "name": "test.js",
+              "id": "/packages/dir-json/test.js",
               "type": "file",
             },
             Object {
-              "name": "yarn.lock",
+              "id": "/packages/dir-json/yarn.lock",
               "type": "file",
             },
           ],
-          "name": "dir-json",
+          "id": "/packages/dir-json",
           "type": "directory",
         },
         Object {
           "children": Array [
             Object {
-              "name": "LICENSE",
+              "id": "/packages/glob-async/LICENSE",
               "type": "file",
             },
             Object {
-              "name": "README.md",
+              "id": "/packages/glob-async/README.md",
               "type": "file",
             },
             Object {
-              "name": "index.js",
+              "id": "/packages/glob-async/index.js",
               "type": "file",
             },
             Object {
-              "name": "package.json",
+              "id": "/packages/glob-async/package.json",
               "type": "file",
             },
             Object {
-              "name": "test.js",
+              "id": "/packages/glob-async/test.js",
               "type": "file",
             },
             Object {
-              "name": "yarn.lock",
+              "id": "/packages/glob-async/yarn.lock",
               "type": "file",
             },
           ],
-          "name": "glob-async",
+          "id": "/packages/glob-async",
           "type": "directory",
         },
       ],
-      "name": "packages",
+      "id": "/packages",
       "type": "directory",
     },
   ],
-  "name": "utils",
+  "id": "/",
   "type": "directory",
 }
 `;
 
 exports[`file 1`] = `
 Object {
-  "name": "README.md",
+  "id": "/",
   "type": "file",
 }
 `;

@@ -4,7 +4,6 @@ const dirJSON = require('./');
 function fn(x) {
   if (x.match(/node_modules/)) return false;
   if (path.basename(x)[0] === '.') return false;
-  return true;
 }
 
 test('directory', async function() {
