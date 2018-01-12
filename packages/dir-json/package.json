@@ -1,0 +1,14 @@
+{
+  "name": "dir-json",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Wang Zuo <wzuoadjusted@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.0.6"
+  }
+}
