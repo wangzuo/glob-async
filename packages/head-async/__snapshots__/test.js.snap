@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bytes 1`] = `
+"1
+2
+3
+4
+5
+6
+7
+8
+9
+"
+`;
+
+exports[`count 1`] = `
+Array [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+]
+`;
+
+exports[`count 2`] = `
+Array [
+  "1",
+  "2",
+  "3",
+]
+`;
