@@ -5,16 +5,9 @@ function head(file, options = {}) {
 
   return new Promise(function(resolve, reject) {
     const options = bytes ? { start: 0, end: bytes - 1 } : {};
-
     const stream = fs.createReadStream(
       file,
-      Object.assign(
-        {
-          encoding: 'utf-8',
-          highWaterMark: 1
-        },
-        options
-      )
+      Object.assign({ encoding: 'utf-8' }, options)
     );
     let data = '';
     let lines = [];
