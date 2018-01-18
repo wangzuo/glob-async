@@ -36,6 +36,11 @@ async function walk(x, fn, s) {
       type,
       children: []
     };
+
+    if (data && data.children) {
+      return Object.assign(dir, data);
+    }
+
     const files = await readdir(x);
 
     for (const file of files) {

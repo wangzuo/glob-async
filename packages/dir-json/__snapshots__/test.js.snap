@@ -12,16 +12,6 @@ Object {
         Object {
           "children": Array [
             Object {
-              "children": Array [
-                Object {
-                  "id": "/packages/dir-json/__snapshots__/test.js.snap",
-                  "type": "file",
-                },
-              ],
-              "id": "/packages/dir-json/__snapshots__",
-              "type": "directory",
-            },
-            Object {
               "id": "/packages/dir-json/index.js",
               "type": "file",
             },
@@ -71,6 +61,32 @@ Object {
           "id": "/packages/glob-async",
           "type": "directory",
         },
+        Object {
+          "children": Array [
+            Object {
+              "id": "/packages/head-async/file.txt",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/head-async/index.js",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/head-async/package.json",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/head-async/test.js",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/head-async/yarn.lock",
+              "type": "file",
+            },
+          ],
+          "id": "/packages/head-async",
+          "type": "directory",
+        },
       ],
       "id": "/packages",
       "type": "directory",
@@ -85,5 +101,85 @@ exports[`file 1`] = `
 Object {
   "id": "/",
   "type": "file",
+}
+`;
+
+exports[`overwrite directory 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "id": "/README.md",
+      "type": "file",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "id": "/packages/dir-json",
+          "type": "directory",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "id": "/packages/glob-async/LICENSE",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/glob-async/README.md",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/glob-async/index.js",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/glob-async/package.json",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/glob-async/test.js",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/glob-async/yarn.lock",
+              "type": "file",
+            },
+          ],
+          "id": "/packages/glob-async",
+          "type": "directory",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "id": "/packages/head-async/file.txt",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/head-async/index.js",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/head-async/package.json",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/head-async/test.js",
+              "type": "file",
+            },
+            Object {
+              "id": "/packages/head-async/yarn.lock",
+              "type": "file",
+            },
+          ],
+          "id": "/packages/head-async",
+          "type": "directory",
+        },
+      ],
+      "id": "/packages",
+      "type": "directory",
+    },
+  ],
+  "id": "/",
+  "type": "directory",
 }
 `;
