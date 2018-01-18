@@ -21,7 +21,9 @@ test('file', async () => {
 test('overwrite directory', async () => {
   expect(
     await dirJSON(path.join(__dirname, '../../'), function(x) {
-      if (x === '/packages/dir-json') return { children: [] };
+      if (x === '/packages') {
+        return { _children: ['dir-json'] };
+      }
       return fn(x);
     })
   ).toMatchSnapshot();

@@ -37,11 +37,7 @@ async function walk(x, fn, s) {
       children: []
     };
 
-    if (data && data.children) {
-      return Object.assign(dir, data);
-    }
-
-    const files = await readdir(x);
+    const files = data && data._children ? data._children : await readdir(x);
 
     for (const file of files) {
       const child = await walk(path.join(x, file), fn, s);
@@ -49,6 +45,10 @@ async function walk(x, fn, s) {
       if (child !== IGNORE) {
         dir.children.push(child);
       }
+    }
+
+    if (data && data._children) {
+      delete data._children;
     }
 
     return typeof data !== 'undefined' ? Object.assign(dir, data) : dir;
