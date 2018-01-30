@@ -46,12 +46,14 @@ async function uploadLocal(filepath, options = {}) {
   });
 }
 
-async function upload(str, options = {}) {
-  if (str.match(/^http/)) {
-    // todo
-  } else {
-    return await uploadLocal(str, options);
-  }
+function upload(options = {}) {
+  return async function(src) {
+    if (str.match(/^http/)) {
+      // todo
+    } else {
+      return await uploadLocal(str, options);
+    }
+  };
 }
 
 module.exports = upload;
