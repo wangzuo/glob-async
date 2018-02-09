@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const request = require('request');
 const mime = require('mime');
+const debug = require('debug')('upload-it');
 const Storage = require('@google-cloud/storage');
 const crypto = require('crypto');
 
@@ -71,14 +72,48 @@ async function uploadLocal(filepath, options = {}) {
   });
 }
 
-function upload(options = {}) {
-  return async function(str) {
-    if (str.match(/^http/)) {
-      return await uploadRemote(str, options);
-    } else {
-      return await uploadLocal(str, options);
+function writeFile(file, content) {
+  return new Promise(function(resolve, reject) {
+    fs.writeFile(file, content, 'utf-8', function(err) {
+      if (err) return reject(err);
+      return resolve();
+    });
+  });
+}
+
+function uploadIt(options = {}) {
+  const cache = (function() {
+    try {
+      return require(options.cachePath);
+    } catch (e) {
+      return {};
     }
+  })();
+
+  return async function(str) {
+    if (cache[str]) {
+      debug(`cache hit: ${str}`);
+      return cache[str];
+    }
+
+    debug(`upload: ${str}`);
+
+    let res = null;
+
+    if (str.match(/^http/)) {
+      res = await uploadRemote(str, options);
+    } else {
+      res = await uploadLocal(str, options);
+    }
+
+    if (options.cachePath) {
+      cache[str] = res;
+      debug(`cache set: ${str}, ${res}`);
+      await writeFile(options.cachePath, JSON.stringify(cache, '', 2));
+    }
+
+    return res;
   };
 }
 
-module.exports = upload;
+module.exports = uploadIt;
