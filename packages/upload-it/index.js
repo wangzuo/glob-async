@@ -47,7 +47,7 @@ async function uploadRemote(url, options = {}) {
   });
 }
 
-async function uploadLocal(filepath, options = {}) {
+async function uploadLocal(filepath, options = {}, cache) {
   const storage = Storage({ projectId: options.projectId });
   const bucket = storage.bucket(options.bucket);
   const hash = await filehash(filepath, options.secret);
@@ -57,6 +57,11 @@ async function uploadLocal(filepath, options = {}) {
 
   const filename = `${hash}${m1[1]}`;
   const contentType = mime.getType(filename);
+
+  if (cache && cache[filepath] && cache[filepath] === filename) {
+    debug(`cache hit: ${filepath}`);
+    return cache[filepath];
+  }
 
   return new Promise((resolve, reject) => {
     const stream = bucket.file(filename).createWriteStream({
@@ -91,19 +96,12 @@ function uploadIt(options = {}) {
   })();
 
   return async function(str) {
-    if (cache[str]) {
-      debug(`cache hit: ${str}`);
-      return cache[str];
-    }
-
-    debug(`upload: ${str}`);
-
     let res = null;
 
     if (str.match(/^http/)) {
-      res = await uploadRemote(str, options);
+      res = await uploadRemote(str, options, cache);
     } else {
-      res = await uploadLocal(str, options);
+      res = await uploadLocal(str, options, cache);
     }
 
     if (options.cachePath) {
