@@ -22,7 +22,7 @@ function filehash(filepath, secret) {
   });
 }
 
-async function uploadRemote(url, options = {}) {
+async function uploadRemote(url, options = {}, cache) {
   const storage = Storage({ projectId: options.projectId });
   const bucket = storage.bucket(options.bucket);
   const hmac = crypto.createHmac('sha1', options.secret);
@@ -33,6 +33,11 @@ async function uploadRemote(url, options = {}) {
   const filename = `${digest}${m1[1]}`;
   const contentType = mime.getType(filename);
 
+  if (cache && cache[url]) {
+    debug(`cache hit: ${url}`);
+    return cache[url];
+  }
+
   return new Promise(function(resolve, reject) {
     const stream = bucket.file(filename).createWriteStream({
       metadata: { contentType }
@@ -42,7 +47,15 @@ async function uploadRemote(url, options = {}) {
 
     stream.on('error', reject);
     stream.on('finish', function() {
-      resolve(filename);
+      if (options.cachePath) {
+        cache[url] = filename;
+        debug(`cache set: ${url}, ${filename}`);
+        writeFile(options.cachePath, JSON.stringify(cache, '', 2))
+          .then(() => {
+            resolve(filename);
+          })
+          .catch(reject);
+      }
     });
   });
 }
@@ -72,7 +85,15 @@ async function uploadLocal(filepath, options = {}, cache) {
 
     stream.on('error', reject);
     stream.on('finish', function() {
-      resolve(filename);
+      if (options.cachePath) {
+        cache[filepath] = filename;
+        debug(`cache set: ${filepath}, ${filename}`);
+        writeFile(options.cachePath, JSON.stringify(cache, '', 2))
+          .then(() => {
+            resolve(filename);
+          })
+          .catch(reject);
+      }
     });
   });
 }
@@ -102,12 +123,6 @@ function uploadIt(options = {}) {
       res = await uploadRemote(str, options, cache);
     } else {
       res = await uploadLocal(str, options, cache);
-    }
-
-    if (options.cachePath) {
-      cache[str] = res;
-      debug(`cache set: ${str}, ${res}`);
-      await writeFile(options.cachePath, JSON.stringify(cache, '', 2));
     }
 
     return res;
