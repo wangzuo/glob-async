@@ -1,20 +1,20 @@
-# download-it
+# page-it
 
 url -> html
 
 ### Installation
 
 ```sh
-npm install download-it
+npm install page-it
 ```
 
 ### Usage
 
 ```javascript
-const download = require('download-it');
-const page = await download('https://www.google.com');
+const pageIt = require('page-it');
+const page = await pageIt('https://www.google.com');
 
-download('https://www.google.com').then(page => console.log(page.html):
+pageIt('https://www.google.com').then(page => console.log(page.html):
 ```
 
 ### License
