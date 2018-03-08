@@ -1,0 +1,27 @@
+{
+  "name": "page-it",
+  "main": "index.js",
+  "version": "0.1.0",
+  "description": "download page",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Wang Zuo",
+  "license": "MIT",
+  "dependencies": {
+    "content-type": "^1.0.2",
+    "iconv-lite": "^0.4.17",
+    "normalize-url": "^1.9.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "keywords": [
+    "http",
+    "request",
+    "page",
+    "scrapping",
+    "charset"
+  ]
+}

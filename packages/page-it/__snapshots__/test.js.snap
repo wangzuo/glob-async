@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`charset 1`] = `
+Object {
+  "href": "https://news.qq.com/a/20170529/020833.htm",
+  "html": "<!DOCTYPE html><html lang=\\"zh-CN\\"><head>
+<meta content=\\"text/html; charset=gb2312\\" http-equiv=\\"Content-Type\\">
+<meta charset=\\"gb2312\\">
+<title>诵《离骚》、“送端阳”……端午还有这些习俗活动_新闻_腾讯网</title>
+<meta name=\\"keywords\\" content=\\"诵《离骚》、“送端阳”……端午还有这些习俗活动,端午,习俗,习俗活动\\">
+<meta name=\\"Description\\" content=\\"诵《离骚》、“送端阳”……端午还有这些习俗活动\\">
+<meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+<link rel=\\"shortcut icon\\" href=\\"http://mat1.gtimg.com/www/icon/favicon2.ico\\">
+<link rel=\\"alternate\\" type=\\"application/vnd.wap.xhtml+xml\\" media=\\"handheld\\" href=\\"http://xw.qq.com/c/news/20170529020833\\">
+<script type=\\"text/javascript\\">
+            ARTICLE_INFO = window.ARTICLE_INFO || {
+            site:'news',
+            site_cname:'新闻',
+            site_url:'http://news.qq.com',
+            title:'诵《离骚》、“送端阳”……端午还有这些习俗活动',
+            id:'20170529020833',
+            pubtime:'2017-05-29 16:23',
+            type:'1',
+            article_url:'http://news.qq.com/a/20170529/020833.htm',
+            sosokeys:{key1:'端午',key2:'习俗',key3:'习俗活动'},
+            tags:['端午','习俗','习俗活动'],
+            catalog:'newsgn',
+            catalog_full:'news-newsgn-gdxw',
+            sub_nav:'gdxw',
+            topic:{name:'',cname:'',ztcatalog:''},
+            subName:{name:'newsgn',url:'http://news.qq.com/china_index.shtml', cname:'国内新闻'},
+            isShowLastAD:'',
+            tpl:{dev:'def',ver:'1.0.0.0',time:'20160512',type:'1',stype:''}
+            }
+        </script><!--https错误上报 -->
+<script src=\\"//mat1.gtimg.com/pingjs/ext2020/dc/others/reportFailure.js\\"></script>
+
+
+<!--样式-->
+<link href=\\"//mat1.gtimg.com/pingjs/ext2020/dc/dist/css/news.css\\" rel=\\"stylesheet\\"  charset=\\"UTF-8\\">
+
+<!--包含门神，适配跳转，测速文件-->
+<!-- 2016.7.13 jackiejiang add house.com use-->
+<script src=\\"//mat1.gtimg.com/house/js/h5rewrite.js\\"></script>
+
+<!--2014.3.20 byAustinjin-->
+<!--20140225 menshen-->
+<script type=\\"text/javascript\\" src=\\"//js.aq.qq.com/js/aq_common.js\\"></script><!--[if !IE]>|xGv00|135a509a6ac85759a2a10161f645f1ba<![endif]-->
+<script>
+!function(){var i=function(i){if(i&&i.indexOf(\\"/a/\\")>0){var t=i.split(\\"/\\")[2].split(\\"qq.com\\")[0].split(\\".\\"),e=i.split(\\"/a/\\")[1].split(\\".htm\\")[0].replace(/[^0-9]/g,\\"\\"),n=\\"\\",o=\\"\\",s=\\"\\";if(o=3===t.length?t[0]+\\"_\\"+t[1]:t[0],s=o.indexOf(\\"_\\")>0&&o.split(\\"_\\")[0].length<3?(o.split(\\"_\\")[0]+o.split(\\"_\\")[1]).substring(0,3).toUpperCase():o.substring(0,3).toUpperCase(),o.indexOf(\\"house\\")>0&&(s=\\"HOU\\"),o.indexOf(\\"auto\\")>0&&(s=\\"AUT\\"),/cd|fj|cq|hb|gd|zj|ln|js/.test(o)&&(s=o.toUpperCase()+\\"C\\"),/henan/.test(o)&&(s=\\"HNC\\"),/xian/.test(o)&&(s=\\"XAC\\"),/hn/.test(o)&&(s=\\"HNN\\"),/2016/.test(o)&&(s=\\"BCP\\"),\\"undefined\\"!=typeof o&&\\"undefined\\"!=typeof e){if(o.split(\\".\\").length>2)for(var a=o.split(\\".\\").length,l=0;a>l;l++)n+=o.split(\\".\\")[l],a-2>l&&(n+=\\"_\\");else n=o.split(\\".\\")[0];return\\"https://xw.qq.com/\\"+o+\\"/\\"+e+\\"/\\"+s+e+\\"00\\"}}},t={news:\\"news\\",photo:\\"photo\\",video:\\"video\\",view:\\"huati\\",finance:\\"finance\\",ent:\\"ent\\",sports:\\"sports\\",digi:\\"digi\\",mil:\\"mil\\",lady:\\"lady\\",auto:\\"auto\\",games:\\"games\\",house:\\"house\\",astro:\\"astro\\",cul:\\"cul\\",fashion:\\"fashion\\",2014:\\"shijiebei\\",2016:\\"2016\\",edu:\\"edu\\",nba:\\"nba\\",stock:\\"stock\\",health:\\"health\\",foxue:\\"fx\\",ly:\\"visit\\",vlike:\\"shipin\\"};if(/Android|webOS|iPhone|Windows Phone|iPod|BlackBerry|SymbianOS/i.test(navigator.userAgent)){var e=window.location.href;window.location.pathname;if(e.indexOf(\\"/a/\\")>0&&\\"www.nanjing2014.org\\"!=window.location.hostname){if(e.indexOf(\\"?pc\\")<0)try{window.location.href=i(e)}catch(n){}}else if(e.indexOf(\\"?mobile\\")<0){var o=window.location.hostname.split(\\".\\")[0],s=window.location.pathname.split(\\".\\")[0].replace(/\\\\//g,\\"\\").substring(0,3);if(/news|pp|video|view|finance|ent|sports|digi|mil|fashion|auto|games|house|astro|cul|2014|2016|stock|health|foxue|ly|vlike|edu/i.test(o))try{\\"nba\\"==s?window.location.href=\\"https://xw.qq.com/m/\\"+t[s]+\\"/\\":window.location.href=\\"https://xw.qq.com/m/\\"+t[o]+\\"/\\"}catch(n){}}try{}catch(n){}}}();
+</script><!--[if !IE]>|xGv00|e60112b792e3166b11715f4609cd8ba0<![endif]-->
+<script type=\\"text/javascript\\" src=\\"//mat1.gtimg.com/js/speed_v1.9-min.js\\"></script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName(\\"script\\")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!--[if !IE]>|xGv00|3a6aa141504dafc8d218e23e3f098200<![endif]-->
+<script src=\\"//mat1.gtimg.com/libs/jquery/1.12.0/jquery.min.js\\"></script>
+<script src=\\"//imgcache.gtimg.cn/tencentvideo_v1/tvp/js/tvp.player_v2_jq.js\\" charset=\\"utf-8\\"></script><!--[if !IE]>|xGv00|175ae5c5019a6bc15b2c02702664eb1c<![endif]-->
+
+<script>
+window.noVideoList = true;
+window.txPlayer_config = {
+      showVListByApi:true//校验是否规范内容
+}
+
+typeof ARTICLE_INFO=='object' && ARTICLE_INFO && (ARTICLE_INFO.isUnique=1);
+function ResumeError() {return true;}window.onerror = ResumeError;
+</script>
+<!--[if !IE]>|xGv00|a59597d9594e9c8cf1f1efb5dc912ecb<![endif]-->
+</head>
+<body id=\\"Wrap\\">
+<a href=\\"http://www.qq.com/demo/accessibility.htm\\" title=\\"按alt+3阅读正文，您也可以现在按回车查看详细的无障碍说明，或者使用上下键进行线性阅读\\" accesskey=\\"0\\" target=\\"_blank\\" style=\\"width:0;height:0;overflow:hidden;display:block;font:0/0 Arial\\">无障碍说明</a><div class=\\"qq_header\\">
+    <div id=\\"qq_navWrap\\" role=\\"navigation\\"></div>
+</div><!--[if !IE]>|xGv00|bf18e7eeb9941ccbb5ad10fab6d2f096<![endif]--><div class=\\"qq_body\\" id=\\"qq_body\\">
+<!--QQ浏览器合作推广-->
+<!--include virtual=\\"/dc_column_article/article_main/coo_qqBrowser.htm\\"-->
+
+<div class=\\"qq_topAd clearfix\\">
+<!--14.12.10新增广告_顶通广告-->
+<div class=\\"article_ad body-Top-Ad body-Article-QQ TopAds nAdTop-Article-QQ\\">
+<!--$loc$_div AD begin....\\"l=$loc$&log=off\\"--><div id=\\"QQcom_all_Width1:1\\" style=\\"width:1000px;height:90px;\\" data-loc=\\"QQcom_all_Width1\\" data-index=\\"1\\" class=\\"l_qq_com\\"></div><!--$loc$ AD end --><!--[if !IE]>|xGv00|cac576da350178da9681ee923ae7df81<![endif]-->	
+</div><!--[if !IE]>|xGv00|97999e52b22d9f745a6ac6ca1d9a422b<![endif]-->
+</div>
+<!-- 联动顶通广告 -->
+<!--News_F_LD_RM_div AD begin....\\"l=News_F_LD_RM&log=off\\"-->
+<div id=\\"News_F_LD_RM\\" style=\\"width:1px;height:1px;display:none;margin:0 auto;\\" class=\\"l_qq_com\\"></div>
+<!--News_F_LD_RM AD end --><!--[if !IE]>|xGv00|a2a698e8e9b9b0aae583f7803fc01dc0<![endif]-->
+
+<div class=\\"qq_navTool clearfix\\">
+<!--子导航-->
+<div class=\\"qq_subNav\\">
+	<a target=\\"_blank\\" href=\\"http://news.qq.com\\" class=\\"qq_logo\\" bosszone=\\"crumblogo\\" id=\\"logo\\"></a>
+	<img class=\\"sspLogo\\" src=\\"//mat1.gtimg.com/news/dc/logo/icon_logo_ssp.png\\" width=\\"53\\" height=\\"20\\" />
+	<div class=\\"nav-list\\" id=\\"navList\\" bosszone=\\"subNav\\">
+<a href=\\"http://news.qq.com/\\" target=\\"_blank\\"  bosszone=\\"china\\">国内</a>
+<a href=\\"http://news.qq.com/world_index.shtml\\" target=\\"_blank\\" bosszone=\\"world\\">国际</a>
+<a href=\\"http://news.qq.com/society_index.shtml\\" bosszone=\\"society\\" target=\\"_blank\\">社会</a>
+<a href=\\"http://mil.qq.com/mil_index.htm\\" target=\\"_blank\\" bosszone=\\"mil\\">军事</a>
+<a href=\\"http://view.news.qq.com/\\" target=\\"_blank\\" bosszone=\\"view\\">评论</a><a href=\\"http://history.news.qq.com/\\" bosszone=\\"historyna\\" target=\\"_blank\\">历史</a>
+<a href=\\"http://news.qq.com/photo.shtml\\" bosszone=\\"photo\\" target=\\"_blank\\">图片</a>
+<a href=\\"http://weather.news.qq.com/\\" bosszone=\\"weather\\" target=\\"_blank\\">天气</a>
+	 </div>
+</div>
+
+<!--sougou搜索-->
+<!--sougou搜索-->											 <script>var sosoArticlKey = \\"端午\\" ;</script>
+
+					<div class=\\"Form-Crumbs-Article-QQ\\" bosszone=\\"sosearch\\">
+						<form name=\\"flso\\" action=\\"https://www.sogou.com/tx\\" target=\\"_blank\\">
+							<input type=\\"submit\\" class=\\"submit\\" value=\\"\\" id=\\"soSubmit\\">
+							<div class=\\"inputWarp\\">
+								<a href=\\"https://www.sogou.com/\\" target=\\"_blank\\" class=\\"SosonLogo\\" title=\\"上网从搜狗开始\\"><span>搜狗</span></a>
+								<input type=\\"text\\" class=\\"txtArea\\" name=\\"query\\" id=\\"sosoArticlKey\\">
+								<input type=\\"hidden\\" name=\\"hdq\\" value=\\"sogou-wsse-b58ac8403eb9cf17-0003\\">
+							</div>
+						</form>
+					</div>
+<!--[if !IE]>|xGv00|e6e1a96d622f838dd5072f52f5a9c70d<![endif]-->	
+				
+</div>
+<!--[if !IE]>|xGv00|94e9c8ddc3c7f081467ebaacb9c08ae0<![endif]--><div class=\\"qq_content clearfix\\" id=\\"content\\">
+<div class=\\"qq_mainArea\\" id=\\"Main-Article-QQ\\">
+<!--mainTop--><!--[if !IE]>|xGv00|989b89c4f0321e0db0d7f7606b54cad5<![endif]--><div class=\\"qq_innerMain clearfix\\">
+<div class=\\"qq_main\\">
+ <!--main_1--><!--[if !IE]>|xGv00|5d395f2157d94d12e94943059b9ed605<![endif]--><div class=\\"qq_article\\">
+<div class=\\"hd\\">
+<h1>诵《离骚》、“送端阳”……端午还有这些习俗活动</h1>
+<div class=\\"qq_bar clearfix\\" bosszone=\\"titleDown\\">
+<div class=\\"a_Info\\">
+<span class=\\"a_catalog\\" bosszone=\\"ztTopic\\"><a target=\\"_blank\\" accesskey=\\"5\\" href=\\"http://news.qq.com/newsgn/gdxw/gedixinwen.htm\\" title=\\"更多各地新闻相关内容列表\\">各地新闻</a></span><span class=\\"a_source\\" bosszone=\\"jgname\\"><a target=\\"_blank\\" href=\\"http://news.cctv.com/2017/05/29/ARTIMoLQOdhVWAE07W7B1ZFG170529.shtml\\">央视网</a></span><span class=\\"a_time\\">2017-05-29 16:23</span>
+</div>
+<div class=\\"a_share\\" id=\\"shareBtn\\">
+    <a class=\\"shareTitle\\" style=\\"cursor: pointer;\\">分享<i></i></a>
+    <div class=\\"shareBd\\">
+        <ul class=\\"shareBtn16\\">
+            <li bosszone=\\"msQzone\\" class=\\"\\"><a href=\\"javascript:void(0)\\" class=\\"s_qzone\\" data-node=\\"shareQzone\\">QQ空间</a></li>
+            <li bosszone=\\"msQQ\\" class=\\"\\"><a href=\\"javascript:void(0)\\" class=\\"s_qq\\" data-node=\\"shareQQ\\">QQ好友</a></li>
+            <li bosszone=\\"msSina\\"><a href=\\"javascript:void(0)\\" class=\\"s_sina\\" data-node=\\"shareSina\\">新浪微博</a></li>
+            <li bosszone=\\"msWx\\" id=\\"shareWx\\" class=\\"shareWx\\">
+                <a href=\\"javascript:void(0)\\" class=\\"s_wx\\">微信好友</a>
+                <div class=\\"ewmBox\\" id=\\"upshareqrcode\\"></div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<span class=\\"a_commentNum\\">
+    <a href=\\"#\\" id=\\"cmtLink\\" bosszone=\\"Ncomm\\"  target=\\"_blank\\"><em id=\\"cmtNum\\">0</em>评论</a>
+</span>
+
+
+<span class=\\"a_ilike\\" bosszone=\\"textFvrtop\\">
+    <a href=\\"javascript:void(0)\\">收藏</a>
+</span><!--[if !IE]>|xGv00|9e1af0bee8cab9a1931a638641907475<![endif]-->	<!--[if !IE]>|xGv00|da7bcdfd4f43adfd202030b53d9941f4<![endif]-->
+</div>
+</div>
+<div class=\\"bd\\" accesskey=\\"3\\" tabindex=\\"-1\\">
+<div id=\\"Cnt-Main-Article-QQ\\" class=\\"Cnt-Main-Article-QQ\\" bossZone=\\"content\\"><p class=\\"text\\" style=\\"TEXT-INDENT:2em\\"><strong>央视网消息：</strong>端午节，除了包粽子、赛龙舟外，各地还有哪些不一样的习俗活动？再一起去看看。</p><p class=\\"text\\" style=\\"TEXT-INDENT:2em\\"><strong>湖南：千人诵《离骚》 传统习俗样式多</strong></p><p class=\\"text\\" style=\\"TEXT-INDENT:2em\\">在湖南岳阳，近千名市民和学生身穿汉服共吟《离骚》，祭祀屈原。</p><p class=\\"text\\" style=\\"TEXT-INDENT:2em\\">而在湖南湘南地区的瑶族同胞则有采“风药”，佩香囊等习俗。据了解，端午节用这些“风药”熬水洗澡能够达到治病强身的效果。</p><p class=\\"text\\" style=\\"TEXT-INDENT:2em\\"><p align=\\"center\\"><img src=\\"http://inews.gtimg.com/newsapp_bt/0/1607109829/641\\" style=\\"display:block;\\"/></p></p><p class=\\"text\\" style=\\"TEXT-INDENT:2em\\"><strong>江西修水：传统习俗：五月五女婿“送端阳”</strong></p><p class=\\"text\\" style=\\"TEXT-INDENT:2em\\">在江西九江的修水县，端午节又称为“女婿节”，每年农历五月初五端午节这一天，女婿们都要备上猪肉、包子、咸鸭蛋、面条等礼品，给岳父母“送端阳”，以表达尊敬感激之意。</p><p class=\\"text\\" style=\\"TEXT-INDENT:2em\\"><p align=\\"center\\"><img src=\\"http://inews.gtimg.com/newsapp_bt/0/1607109929/641\\" style=\\"display:block;\\"/></p></p><p class=\\"text\\" style=\\"TEXT-INDENT:2em\\"><strong>江苏泗阳：传统端午节 浓浓文化味</strong></p><p class=\\"text\\" style=\\"TEXT-INDENT:2em\\">在江苏泗阳，端午节期间当地举办了丰富多彩的文化活动。在泗阳县文化馆一场极具地方特色的淮海小戏，让孩子们欣赏到独特的传统文化。 过足戏瘾，有兴趣的孩子还能学着唱淮海戏，不少家长表示，这样的端午假期，过得有意义，有乐趣。</p></div>
+<span style=\\"width:0;height:0;overflow:hidden;display:block;font:0/0 Arial\\">正文已结束，您可以按alt+4进行评论</span>
+</div>
+</div>
+<div class=\\"qq_articleFt\\">
+<div class=\\"qq_toolWrap clearfix\\">
+
+<div class=\\"qq_editor\\" id=\\"QQeditor\\">责任编辑：patrickqu</div>
+
+
+<span class=\\"a_ilike\\" bosszone=\\"textFvrleft\\">
+    <a href=\\"javascript:void(0)\\">收藏本文</a>
+</span><!--[if !IE]>|xGv00|2019cab2f00459e65566a27171e3a2d1<![endif]-->
+<div class=\\"qq_share\\">
+	<div class=\\"shareBtn clearfix\\">
+		<span class=\\"shareTit\\">分享到:</span>
+		<ul class=\\"shareBtn24\\">							
+	<li><a href=\\"javascript:void(0)\\" class=\\"s_qzone\\" bosszone=\\"tqzone\\" alt=\\"QQ空间\\" title=\\"QQ空间\\" data-node=\\"shareQzone\\">QQ空间</a></li>
+	<li><a href=\\"javascript:void(0)\\" class=\\"s_qq\\" bosszone=\\"tqq\\" alt=\\"QQ好友\\" title=\\"QQ好友\\" data-node=\\"shareQQ\\">QQ好友</a></li>
+	<li><a href=\\"javascript:void(0)\\" class=\\"s_sina\\" bosszone=\\"tsina\\" alt=\\"新浪微博\\" title=\\"新浪微博\\" data-node=\\"shareSina\\">新浪微博</a></li>
+	<li><a href=\\"javascript:void(0)\\" class=\\"s_ewm\\" bosszone=\\"scan\\" alt=\\"二维码\\" title=\\"查看本文二维码\\" id=\\"s_ewm\\"  data-node=\\"shareWeixin\\">二维码</a></li>
+		</ul>
+	</div>
+	<div class=\\"wemcn\\" id=\\"wemcn\\" style=\\"display: none;\\">
+		<div id=\\"ewm\\" class=\\"ewmDiv clearfix\\">
+			<div id=\\"ewmimg\\" class=\\"ewmimg\\"></div>
+			<div class=\\"rwmtext\\">
+				<p>扫一扫，用手机看新闻！</p>
+				<p>用微信扫描还可以</p>
+				<p>分享至好友和朋友圈</p>
+			</div>
+		</div>
+		<a href=\\"javascript:void(0)\\" id=\\"ewmkg\\"></a>
+		<i class=\\"ewmsj\\"></i>
+	</div>										
+</div>
+
+
+<!--[if !IE]>|xGv00|1617951b91dc4c439ec22e4ba17f06d8<![endif]-->	
+</div>
+<!-- 正文下广告 -->
+<div class=\\"ad-box ad-cnt-1\\">
+	 <!--F_Z_Width1_div AD begin....\\"l=F_Z_Width1&log=off\\"--><div id=\\"F_Z_Width1\\" style=\\"width:640px;height:90px;display:none;\\" class=\\"l_qq_com\\"></div><!--F_Z_Width1 AD end --><!--[if !IE]>|xGv00|0465a81e1ed4117e717b8bd08107345a<![endif]-->						</div><!--[if !IE]>|xGv00|fbe148cba98afb599c2ec94c0e76d531<![endif]--><!--[if !IE]>|xGv00|7e2bfc7d01190ee0efac85110cc78008<![endif]--><div class=\\"qq_readBox\\">
+<div class=\\"qq_aboutRead\\">
+<div class=\\"hd qq_subTit2 clearfix\\">
+<h2 class=\\"bq\\">标签</h2>
+<div class=\\"mark\\" id=\\"videokg\\" bosszone=\\"keyword\\">
+<span><a target=\\"_blank\\" href=\\"http://news.qq.com/dc_article2016/tagsList.htm?tags=%E7%AB%AF%E5%8D%88\\">端午</a></span><span><a target=\\"_blank\\" href=\\"http://news.qq.com/dc_article2016/tagsList.htm?tags=%E4%B9%A0%E4%BF%97\\">习俗</a></span><span><a target=\\"_blank\\" href=\\"http://news.qq.com/dc_article2016/tagsList.htm?tags=%E4%B9%A0%E4%BF%97%E6%B4%BB%E5%8A%A8\\">习俗活动</a></span>
+</div>
+</div>
+<div class=\\"bd\\"></div>
+</div>
+<!--main_4--><!--[if !IE]>|xGv00|1b6800e756c6d085e5c1fdcb2c295edd<![endif]-->
+</div>
+<script type=\\"\\">SogouKeywords = {btn: 'on',txt: ['数千人齐诵《离骚》','杭州女婿端午习俗','端午习俗知多少','端午为何又叫端阳','《离骚经》翻译','端午南方的习俗','小学迎端午诵经典活动','西安端午传统习俗','离骚翻译还有拼音','离骚写作背景','离骚可以分为几段','过端午佳节诵中华经典']};
+            </script><script>
+                                            document.domain = 'qq.com';
+                                            cmt_site = 'news';
+                                            cmt_id = 1960287360;
+                                            cmt_is_group = 0;
+                                            cmt_count_id = 'comment_count|comment_count2';
+                                        </script><!--相关搜索-->
+<!--相关搜索-->
+<div class=\\"qq_keySearch clearfix\\" id=\\"keySearch\\">
+	<div class=\\"hd qq_subTit2\\"><h2>相关搜索<em></em></h2></div>
+	<div class=\\"bd\\" id=\\"SogouKeywordsList\\"></div>
+</div><!--[if !IE]>|xGv00|ce8debbea134a32125ecffb2fd19c3ff<![endif]-->
+
+
+<!--评论-->
+
+	<div class=\\"qq_comment\\">
+		<iframe frameborder=\\"no\\" scrolling=\\"no\\" id = \\"commentIframe\\" style=\\"width:100%;height:300px; overflow:hidden; margin-bottom:30px;\\"></iframe><!--[if !IE]>|xGv00|90b32a71d21f005346bc5544736163a9<![endif]-->
+	</div>
+
+
+<!-- 热门搜索 -->
+<div class=\\"qq_keySearch clearfix\\" id=\\"hotSearch\\" data-src=\\"qq_news\\" data-pid=\\"sogou-wsse-79d37fb2893b428f-0001\\">
+    <div class=\\"hd qq_subTit2\\"><h2>热门搜索<em></em></h2></div>
+    <div class=\\"bd\\" id=\\"SogouHotwordsList\\" bosszone=\\"hotrsearchsogo\\"></div>
+</div><!--[if !IE]>|xGv00|10fab3527c429f2c02b0a84f1085324c<![endif]-->
+
+<!--为你推荐-->
+<!--include virtual=\\"/public/unique_article/recommend.htm\\"-->
+<div id=\\"tag_about\\"></div>
+<div class=\\"qq_recommend\\" id=\\"recommend\\">
+	<div class=\\"hd qq_subTit\\">
+		<h2><em></em>为你推荐</h2>
+	</div>
+	<div class=\\"bd\\">
+		<ul id=\\"omRecommend\\" bosszone=\\"Recommend\\">
+		</ul>
+	</div>
+</div><!--[if !IE]>|xGv00|a9f40d4fbe24da10be9209066030b47d<![endif]-->
+
+<div class=\\"main3-ad mar-b-10\\"  style=\\"position:relative; width:640px; margin:0 auto 10px\\">
+<!--F_Width2_div AD begin....\\"l=F_Width2&log=off\\"--><div id=\\"F_Width2\\" style=\\"width:640px;height:120px;\\" class=\\"l_qq_com\\"></div><!--F_Width2 AD end --><!--[if !IE]>|xGv00|2cc55a0ab77acd6550f69717ec0a3044<![endif]-->
+</div><!--[if !IE]>|xGv00|fdc79cac7ef7886699b2ed1104820899<![endif]--> 
+<!--include virtual=\\"/dc_column_article/article_ad/main_ad_2.htm\\" -->
+<!--News_F_RM_div AD begin....\\"l=News_F_RM&log=off\\"-->
+<div id=\\"News_F_RM\\" style=\\"width:1px;height:1px;display:none;margin:0 auto;\\" class=\\"l_qq_com\\"></div>
+<!--News_F_RM AD end --><!--[if !IE]>|xGv00|2448d572323be3b1c2b475f73feaffa9<![endif]--><!--[if !IE]>|xGv00|ccbecb9bada42c9412846fc78235ccfe<![endif]-->
+</div>
+<script>try{QosS.topSpan(\\"news_bottom\\",10);}catch(e){}</script>
+
+<!--include virtual=\\"/public/final09/ping_js.htm\\"-->
+<script charset=\\"gbk\\" src=\\"//mat1.gtimg.com/pingjs/ext2020/dc2017/publicjs/m/ping.js\\"></script>
+<script>!function(t,e){\\"use strict\\";function a(){var t,e,a=(\\"\\"+p.catalog_full).replace(/-/g,\\".\\").replace(/_/g,\\"-\\");p.topic&&p.topic.name&&p.topic.name.length>0?(t=\\"L.\\",e=\\"Z.\\"+a+\\".\\"+p.topic.name):(t=\\"L.\\"+a,e=\\"Z.\\");var n=\\"W.\\"+p.type,o=\\"M.\\"+p.tpl.type+p.tpl.stype,i=\\"P.\\"+(\\"\\"+p.site).replace(/_/g,\\"-\\"),c=\\"F.\\"+f,l=t+\\"_\\"+e+\\"_\\"+n+\\"_\\"+o+\\"_\\"+i+\\"_\\"+c;l&&r({pgUserType:l})}function n(t){o(e,\\"click\\",function(e){var a=e.target;\\"img\\"===a.tagName&&(a=a.parentNode);var n=a.tagName.toLowerCase(),o=a.getAttribute(\\"href\\");if(!o||o.indexOf(\\"qqcom_pgv_from=\\")>-1)return!1;if(\\"a\\"===n&&a.hostname&&a.hostname.indexOf(\\"qq.com\\")>-1){var r=o+(a.search?\\"&\\":\\"?\\")+\\"qqcom_pgv_from=\\"+t;a.setAttribute(\\"href\\",r)}})}function o(a,n,o){var r=function(a){return a=a||t.event,a.target||(a.target=a.srcElement||e),3===a.target.nodeType&&(a.target=a.target.parentNode),a};return a.addEventListener?a.addEventListener(n,function(t){o.call(t.currentTarget,r(t))},!1):a.attachEvent(\\"on\\"+n,function(t){o.call(a,r(t))}),!0}if(!t||!t.location||\\"function\\"!=typeof t.pgvMain)return!1;var r=function(){var e=arguments;setTimeout(function(){t.pgvMain.apply(this,e)},0)},i=location.search.replace(/adtag=client\\\\.qq\\\\.\\\\d+_\\\\.0/i,\\"from=tips\\"),c=[\\"aio\\",\\"tips\\"],f=\\"def\\";location.search.indexOf(\\"qqcom_pgv_from=\\")>-1&&(f=location.host+location.pathname+location.search);var p=t.ARTICLE_INFO||null,l=p&&p.catalog_full;if(l)for(var g=0;g<c.length;g+=1)if(i.indexOf(c[g])>-1){n(c[g]);break}l&&a(),l||(\\"undefined\\"!=typeof whatCatalog&&(t.pvCSTM=t.whatCatalog),r({pgUserType:\\"F.\\"+f}))}(window,document);</script>
+<script src=\\"//mat1.gtimg.com/v/ptag/ptag_1.2.js\\" async=\\"true\\"></script><!--[if !IE]>|xGv00|61bef66d327cca6227178b682f08e145<![endif]-->
+
+<!-- 广告脚本 -->
+<script type=\\"text/javascript\\" src=\\"//imgcache.qq.com/qzone/biz/comm/js/qbs.js\\"></script>
+<script type=\\"text/javascript\\">
+var TIME_BEFORE_LOAD_CRYSTAL = (new Date).getTime();
+</script>
+<script src=\\"//ra.gtimg.com/web/crystal/v4.4Beta05Build050/crystal-min.js\\" id=\\"l_qq_com\\" arguments=\\"{'extension_js_src':'//ra.gtimg.com/web/crystal/v4.4Beta05Build050/crystal_ext-min.js', 'jsProfileOpen':'true', 'mo_page_ratio':'0.01', 'mo_ping_ratio':'0.01', 'mo_ping_script':'//ra.gtimg.com/sc/mo_ping-min.js'}\\"></script>
+<script type=\\"text/javascript\\">
+if(typeof crystal === 'undefined' && Math.random() <= 1) {
+  (function() {
+    var TIME_AFTER_LOAD_CRYSTAL = (new Date).getTime();
+    var img = new Image(1,1);
+    img.src = \\"//dp3.qq.com/qqcom/?adb=1&dm=news&err=1002&blockjs=\\"+(TIME_AFTER_LOAD_CRYSTAL-TIME_BEFORE_LOAD_CRYSTAL);
+  })();
+}
+</script>
+<style>.absolute{position:absolute;}</style>
+<!--[if !IE]>|xGv00|6bbc99413adf6dfa0a409ff0bfaca022<![endif]--> 
+<script>
+//顶通广告回调
+function checkTopAd(obj){
+/*
+if(obj &&obj.hasAd){
+}else{}
+*/
+}
+</script>
+<!--[if !IE]>|xGv00|1400096298a12dc41f8e83065681f6bd<![endif]-->
+<!--[if !IE]>|xGv00|201bf0c1fb2190fb99c9c06769b550fc<![endif]-->
+</div>
+<div class=\\"qq_mainSide\\"><!--直播台html-->
+<!--直播台html-->
+<div class=\\"tvMerge\\" id=\\"tvMerge\\"  style=\\"display:none;\\">
+	<ul class=\\"hd clearfix\\">
+		<li class=\\"mainTit\\" data-node=\\"mainTit\\" style=\\"display:none;\\"><h2>其他模块</h2></li>
+		<li class=\\"zhiboTit\\" data-node=\\"zhiboTit\\">
+			<h2>直播台</h2>
+			<div>自动播放<em data-node=\\"autoPlay\\"><i></i></em></div>
+		</li>
+	</ul>
+	<div class=\\"bd\\">		
+		<div class=\\"tvStation\\"  data-node=\\"tvStation\\">
+			<div class=\\"playBox\\" data-node=\\"playBox\\">
+				<div class=\\"playLive\\" id=\\"liveVideo\\">
+					
+				</div>
+				<a href=\\"\\" class=\\"go\\" data-node=\\"go\\" target=\\"_blank\\"><span></span><strong>进入直播台</strong></a>
+			</div>
+			<div class=\\"listBox\\">
+				<ul data-node=\\"list\\">
+				</ul>				
+				<a href=\\"javascript:;\\" class=\\"btn up\\" data-node=\\"slide\\" data-data=\\"idx=1\\" style=\\"display:none;\\"><span></span><em></em></a>
+				<a href=\\"javascript:;\\" class=\\"btn down\\" data-node=\\"slide\\" data-data=\\"idx=-1\\"><span></span><em></em></a>
+			</div>				
+		</div>
+	</div>
+</div>
+<!--[if !IE]>|xGv00|9dcaa8a25233b9aff222eda3f9b61b03<![endif]--> 
+
+<!--新闻视频-->
+<div id=\\"videoModBJ\\">
+<div class=\\"qq_hotVideo\\" id=\\"hotVideo\\">
+	<div class=\\"hd qq_subTit\\">
+		<h2><em></em>新闻视频</h2>
+	</div>
+	<div class=\\"bd\\">
+		<ul data-node=\\"list\\"></ul>
+	</div>
+</div>
+
+<!--[if !IE]>|xGv00|fcb61f85be73f73349ffce1b90f95dd9<![endif]--> 
+</div>
+
+<!--14.12.10新增广告_擎天柱广告-->
+<div class=\\"article_ad mar-b-10\\">
+<!--F_Rectangle_N_div AD begin....\\"l=F_Rectangle_N&log=off\\"--><div id=\\"F_Rectangle_N\\" style=\\"width:300px;height:600px;\\" class=\\"l_qq_com\\"></div><!--F_Rectangle_N AD end --><!--[if !IE]>|xGv00|06c8fe2898bcb36e5bd668b9d4843466<![endif]-->	
+</div><!--[if !IE]>|xGv00|c48037564e9c9240f1cd28d314f4b278<![endif]-->
+
+<!--精华推荐-->
+<div class=\\"qq_essence\\" id=\\"essence\\">
+	<div class=\\"hd qq_subTit\\">
+		<h2><em></em>精华推荐</h2>
+	</div>
+	<div class=\\"bd\\">
+		<ul data-node=\\"list\\" bosszone=\\"jhRE\\">
+<!--include virtual=\\"/c/dc_essence.htm\\"-->
+
+		</ul>
+	</div>
+</div><!--[if !IE]>|xGv00|473716214ee366dbe7d867f70da00a06<![endif]--> 
+
+<!-- 淘宝广告 -->
+<div class=\\"ad-box mar-b-30\\">
+<!--F_YSWZL_ZQ_1_div AD begin....\\"l=F_YSWZL_ZQ_1&log=off\\"--><div id=\\"F_YSWZL_ZQ_1\\" style=\\"width:300px;height:250px;\\" class=\\"mod-right sidBoxNoborder mar-cl l_qq_com\\">
+</div><!--F_YSWZL_ZQ_1 AD end --><!--[if !IE]>|xGv00|b887d646637f5e4a7e40af4f4b4a640f<![endif]--> 
+</div><!--[if !IE]>|xGv00|0bba6ee03bdc7ec1629f3cb08d9b9270<![endif]--> 
+
+<!--游戏推荐-->
+<div class=\\"qq_gameRec\\" id=\\"qq_gameRec\\">
+<div class=\\"essence-mod essence_mod mod-side mar-b-10 yxtj-mod\\" bosszone=\\"tymyd\\">
+	<div class=\\"hd\\">
+		<h2>游戏推荐</h2>
+	</div>
+	<div class=\\"bd\\">
+		
+                        
+
+                         <dl>
+			<dt><a href=\\"http://iwan.qq.com/act/tl0310/index.html\\" target=\\"_blank\\"><img src=\\"//img1.gtimg.com/gamezone/pics/hv1/219/41/2200/143065674.jpg\\" alt=\\"天龙八部\\" width=\\"90\\" height=\\"60\\" border=\\"0\\" /></a></dt>
+			<dd><a href=\\"http://iwan.qq.com/act/tl0310/index.html\\" target=\\"_blank\\">王语嫣：段誉又出去了 在线找队友>></a></dd>
+		</dl>
+		
+                          <dl>
+			<dt><a href=\\"http://ylztweb.qq.com/cp/a20171228ylmr/index_auto.html\\" target=\\"_blank\\"><img src=\\"//img1.gtimg.com/gamezone/pics/hv1/20/70/2259/146909345.jpg\\" alt=\\"新热血江湖传\\" width=\\"90\\" height=\\"60\\" border=\\"0\\" /></a></dt>
+			<dd><a href=\\"http://ylztweb.qq.com/cp/a20171228ylmr/index_auto.html\\" target=\\"_blank\\">这款游戏到底有啥黑科技 让玩家欲罢不能>></a></dd>
+		</dl>
+
+		<dl>
+			<dt><a href=\\"http://kaifu.qq.com/\\" target=\\"_blank\\"><img src=\\"//img1.gtimg.com/gamezone/pics/hv1/184/42/2200/143065894.jpg\\" alt=\\"新服\\" width=\\"90\\" height=\\"60\\" border=\\"0\\" /></a></dt>
+			<dd><a href=\\"http://kaifu.qq.com/\\" target=\\"_blank\\">新服开服第一天！网吧团战媳妇喂饭</a></dd>
+		</dl>
+	</div>
+</div>
+<!--[if !IE]>|xGv00|e24871fb4fa5713f1b0615303d4392aa<![endif]-->
+</div>
+
+<!-- 广点通广告 -->
+<!-- --><!--[if !IE]>|xGv00|e2d39a2150a37a7ca121e65d9a10fce1<![endif]-->
+
+<!--右侧专区1-->
+<div class=\\"ad-box mar-b-30\\">
+	  <!--F_ZQ_1_div AD begin....\\"l=F_ZQ_1&log=off\\"-->
+<div id=\\"F_ZQ_1\\" class=\\"l_qq_com\\" style=\\"display:none;\\"></div>
+<!--F_ZQ_1 AD end --><!--[if !IE]>|xGv00|b6cc3d4d8a40432a9cc277f9c00bbed4<![endif]-->					</div><!-- /ad-box --><!--[if !IE]>|xGv00|c63c552712b5bfce7e7fe40612c9247c<![endif]-->
+
+<!--视觉焦点-->
+<div class=\\"qq_focus\\" id=\\"visualFocus\\" bosszone=\\"rightPic\\" data-xinghai=\\"9\\">
+	<div class=\\"hd qq_subTit\\">
+		<h2><em></em>视觉焦点</h2>
+	</div>
+	<div class=\\"bd\\">
+		<ul class=\\"clearfix\\" data-node=\\"list\\" bosszone=\\"rightPic\\">
+<!--include virtual=\\"/c/dc_focus.htm\\" -->
+</ul>
+	</div>
+</div><!--[if !IE]>|xGv00|f7d7d60b4ffe6e1a8156e15edb267ef3<![endif]-->
+
+<!--广告 右侧专区2-->
+<div class=\\"ad-box mar-b-10\\" style=\\"margin-bottom:22px;\\">
+  <!--F_ZQ_2_div AD begin....\\"l=F_ZQ_2&log=off\\"-->
+<div id=\\"F_ZQ_2\\" class=\\"l_qq_com\\" style=\\"display:none;\\"></div>
+<!--F_ZQ_2 AD end --><!--[if !IE]>|xGv00|ebb9be2b55a3dc9d2dbd502f571d29c9<![endif]-->					</div><!-- /ad-box --><!--[if !IE]>|xGv00|c6f553845eec2736f62e8f0bcaf7e865<![endif]-->
+
+<!--14.12.10新增广告_右边竖栏广告-->
+<div class=\\"article_ad mar-b-10\\"> 
+<!--$loc$_div AD begin....\\"l=$loc$&log=off\\"--><div id=\\"QQcom_all_Rectangle:1\\" style=\\"width:300px;height:250px;\\" data-loc=\\"QQcom_all_Rectangle\\" data-index=\\"1\\" class=\\"l_qq_com\\"></div><!--$loc$ AD end --><!--[if !IE]>|xGv00|3ccbb3a3efa8a77278f28a268fadbffc<![endif]-->	
+</div><!--[if !IE]>|xGv00|4d3fc8408e6802f62101cf9079687da7<![endif]-->
+
+<!--广告 右侧专区3-->
+   <div class=\\"ad-box mar-b-10\\">
+	 <!--F_ZQ_2A_div AD begin....\\"l=F_ZQ_2A&log=off\\"-->
+<div id=\\"F_ZQ_2A\\" class=\\"l_qq_com\\"></div>
+<!--F_ZQ_2A AD end -->
+<!--[if !IE]>|xGv00|5e4bddadc532dd4e117469ecf2418985<![endif]-->					</div><!-- /ad-box --><!--[if !IE]>|xGv00|bdcaad619e3d834ddd7ebc2a10cbc570<![endif]-->
+
+<div id=\\"gdt_72058763092022479\\" style=\\"width:300px; margin-bottom:10px;overflow:hidden;\\"> </div><!--[if !IE]>|xGv00|ea88f83b71b49e091a4e00200d8440f6<![endif]-->
+
+<!--右侧文字链 时尚资讯-->
+<!--include virtual=\\"/dc_column_article/article_ad/text_ad2.htm\\"-->
+<div id=\\"taobaoADJS\\">
+<div class=\\"sidBoxNoborder mar-cl\\" style=\\"margin-top:8px;\\">
+<!--F_ZQ_3_div AD begin....\\"l=F_ZQ_3&log=off\\"--><div style=\\"position:relative;line-height:0.1;\\"><div id=\\"F_ZQ_3\\" style=\\"width:300px;height:250px;\\" class=\\"mod-right sidBoxNoborder mar-cl l_qq_com\\">
+</div></div><!--F_ZQ_3 AD end --><!--[if !IE]>|xGv00|d637689b33bd77f7c7079b628208d31a<![endif]-->
+</div>
+ 
+<!--[if !IE]>|xGv00|120016d63f8d0e0d68a7b8fd50214c2a<![endif]-->
+ </div><!--[if !IE]>|xGv00|42a0542fdef83a4ae938c11994f169bd<![endif]--></div>
+</div>
+</div>
+<div class=\\"qq_leftSide\\" id=\\"leftSide\\"><!--热门新闻-->
+<div class=\\"qq_hotChoice\\" id=\\"hotChoice\\">
+	<div class=\\"hd\\">
+		<a href=\\"http://news.qq.com/\\" target=\\"_blank\\" bosszone=\\"jxnrAIO\\">热门新闻</a>
+	</div>
+	<div class=\\"bd\\">
+		<ul data-node=\\"list\\" bosszone=\\"jxnrInfor\\"></ul>
+	</div>
+</div>
+<!--[if !IE]>|xGv00|4ff05aff4cc96f2aa70bfe52aa789154<![endif]--><!--[if !IE]>|xGv00|93cba376612f1e929b35a23c230afb23<![endif]--></div>
+</div>
+</div>
+<!--底部电梯-->
+<!--电梯导航-->
+<div class=\\"qq_scrollBtn\\" id=\\"scrollBtn\\">
+	<ul class=\\"clearfix\\">
+             	<li class=\\"sB-home\\" bosszone=\\"backhome\\"><a href=\\"http://www.qq.com\\" class=\\"ff-t\\" id=\\"goHome\\"  title=\\"返回首页\\" target=\\"_blank\\"><b>返回首页</b></a></li>
+                <li class=\\"sB-feedback\\" bosszone=\\"tSupport\\"><a href=\\"//support.qq.com/products/2198\\" class=\\"ff-t\\" title=\\"用户反馈\\" target=\\"_blank\\"><b>用户反馈</b></a></li>
+
+
+	<li class=\\"sB-comment\\" bosszone=\\"tComm\\"><a href=\\"#commentIframe\\" class=\\"ff-t\\" id=\\"goCmt\\"  title=\\"网友评论\\"><b>评论</b><span id=\\"cmtNum2\\"></span></a></li>
+
+
+	<li class=\\"sB-recommend\\" bosszone=\\"tRecommend\\" style=\\"display:none\\"><a href=\\"#tag_about\\" id=\\"goRecomm\\"  title=\\"为你推荐\\"><b>为你推荐</b></a></li>
+	<li class=\\"sB-goTop\\" id='goTop' bosszone=\\"backTop\\"  title=\\"\\"><a href=\\"javascript:void(0)\\" title=\\"返回顶部\\"><b>返回顶部</b></a></li>
+	</ul>
+</div>
+
+
+<script src=\\"//mat1.gtimg.com/pingjs/ext2020/dc/module/GJ/spjg.js\\" async=\\"async\\" charset='utf-8'></script>
+
+<!--include virtual=\\"/public/unique_article/mercury.htm\\" --><!--[if !IE]>|xGv00|d528a9dfa5c198bac6254257b30066dc<![endif]--> 
+<!--include virtual=\\"/dc_article2016/main16/elevator.htm\\"--> 
+
+<div class=\\"qq_footer foot-Article-QQ\\">
+<!-- 视频推荐 -->
+<!--include virtual=\\"/dc_column_article/footer_article/about_video.htm\\"--> 
+<!--14.12.10新增广告_底通广告-->
+<div class=\\"article_ad ad-foot bottomAds\\">
+<!--$loc$_div AD begin....\\"l=$loc$&log=off\\"--><div id=\\"QQcom_all_Width1:2\\" style=\\"width:1000px;height:90px;\\" data-loc=\\"QQcom_all_Width1\\" data-index=\\"2\\" class=\\"l_qq_com\\"></div><!--$loc$ AD end --><!--[if !IE]>|xGv00|db396fba594d0e4e3588b196f80f5cb4<![endif]-->	
+</div><!--[if !IE]>|xGv00|aa6d4f8aca299c517bb2801b4307d648<![endif]-->
+
+<script>
+var NavNoticeSiteName = [\\"sports\\",\\"tech\\",\\"games\\",\\"cul\\",\\"edu\\",\\"fashion\\",\\"house\\",\\"auto\\",\\"finance\\",\\"ent\\"]; 
+</script>
+<script src=\\"//mat1.gtimg.com/www/chrometips/notification2017_v0118.js\\"></script><!--[if !IE]>|xGv00|160405494288ecc3516e240c185c4fd7<![endif]-->
+<style>
+.tcopyright {width:960px;margin:0 auto;padding:8px 0;font-size:12px;line-height:28px;color:#333; text-align:center; overflow:hidden;clear:both;}
+.tcopyright .en{font-family:Arial;}
+.tcopyright a{color:#333;text-decoration: none;}
+.tcopyright a:hover{color:#bd0a01;text-decoration: underline;}
+</style>
+<div id=\\"tcopyright\\" class=\\"tcopyright\\" bossZone=\\"footer\\" role=\\"contentinfo\\">
+	<div>
+		<a href=\\"http://www.tencent.com/\\" target=\\"_blank\\" rel=\\"nofollow\\">关于腾讯</a> | <a href=\\"http://www.tencent.com/index_e.shtml\\" target=\\"_blank\\" rel=\\"nofollow\\">About Tencent</a> | <a href=\\"http://www.qq.com/contract.shtml\\" target=\\"_blank\\" rel=\\"nofollow\\">服务协议</a> | <a href=\\"http://www.qq.com/privacy.htm\\" target=\\"_blank\\" rel=\\"nofollow\\">隐私政策</a> | <a href=\\"http://open.qq.com/\\" target=\\"_blank\\" rel=\\"nofollow\\">开放平台</a> | <a href=\\"http://www.tencentmind.com/\\" target=\\"_blank\\" rel=\\"nofollow\\">广告服务</a> | <a href=\\"http://hr.tencent.com/\\" target=\\"_blank\\" rel=\\"nofollow\\">腾讯招聘</a> | <a href=\\"http://gongyi.qq.com/\\" target=\\"_blank\\" rel=\\"nofollow\\">腾讯公益</a> | <a href=\\"http://service.qq.com/\\" target=\\"_blank\\" rel=\\"nofollow\\">客服中心</a> | <a href=\\"http://news.qq.com/zt2014/2014qtnews/ccybspxd.htm
+\\" target=\\"_blank\\" rel=\\"nofollow\\">举报中心</a> | <a href=\\"http://www.qq.com/map/\\" target=\\"_blank\\" rel=\\"nofollow\\">网站导航</a>
+	</div>
+  	<div class=\\"en\\">Copyright &copy; 1998 - 2018 Tencent. All Rights Reserved</div>
+    <div>
+		<a href=\\"http://www.tencent.com/\\" target=\\"_blank\\" rel=\\"nofollow\\">腾讯公司</a> <a href=\\"http://www.tencent.com/zh-cn/le/copyrightstatement.shtml\\" target=\\"_blank\\" rel=\\"nofollow\\">版权所有</a>
+	</div>
+</div><!--[if !IE]>|xGv00|b6614ae390f3ba6a8cbcc269055b42da<![endif]-->
+</div>
+<!--[if !IE]>|xGv00|9cc3dcd05d8a50b655288082ea8babf4<![endif]-->
+<script>
+            //http://mat1.gtimg.com/ent/css/ent_comment_201506.css
+	var commentData = {
+		ownStyle:\\"//mat1.gtimg.com/www/2016comments/skyblue.css\\"
+	};
+</script>
+<script src=\\"//mat1.gtimg.com/www/dc/dist/libs/require.js\\"></script>
+<script src=\\"//mat1.gtimg.com/pingjs/ext2020/dc/dist/js/common.js\\" charset=\\"UTF-8\\"></script>
+<script src=\\"//mat1.gtimg.com/pingjs/ext2020/dc/dist/js/news.js\\" charset=\\"UTF-8\\"></script>
+<!--F_RM1_div AD begin....\\"l=F_RM1&log=off\\"-->
+<div id=\\"F_RM1\\" style=\\"width:1px;height:1px;display:none;margin:0 auto;\\" class=\\"l_qq_com\\"></div>
+<!--F_RM1 AD end --><!--[if !IE]>|xGv00|5fda91c0c1c50b3bccc6167b4442f2e0<![endif]-->
+<script type=\\"text/javascript\\" src=\\"//imgcache.qq.com/qzone/biz/comm/js/qbs.js\\"></script>
+<script type=\\"text/javascript\\">
+function gdtad(gdtAD1, gdt_id1, gdtAD2, gdt_id2){
+	GDT.get([[gdtAD1, document.getElementById(gdt_id1), 1, false, function(o) {
+		// o.ret 表示没有广告， 这里可以开发同学随便改
+		if (!o.ret) {
+			document.getElementById(gdt_id1).style.display = 'none';
+		    document.getElementById(\\"cgd\\").style.height = '80px';
+	    	document.getElementById(\\"gdt_right\\").style.display = 'block';
+	    	document.getElementById(\\"gdt_left\\").style.display = 'block';
+            return;
+		}
+		if ( o.data.length == 1 ) { 
+	 		document.getElementById(\\"gdt_right\\").style.display = 'block';
+	  
+		} 
+	}, {  count: 2 }]
+	]); 
+}
+gdtad(\\"72058763092022479\\",\\"gdt_72058763092022479\\");
+</script><!--[if !IE]>|xGv00|a0eb28f8b81dfef093c9db7569ae37f1<![endif]-->
+
+<!-- 站内补充 -->
+<!-- pac上报 -->
+<script src='//mat1.gtimg.com/www/pacboss/beehivezone_index.js'></script><!--[if !IE]>|xGv00|c67fc02349f3af4483a85c8b5100d303<![endif]-->
+<script>
+//pac接口布点击码
+$('[data-node=\\"list\\"]','#hotChoice').attr('beehivezone','qqCom_news_detailPage_ltrecommends');
+</script>
+<script>try{QosS.endCheck();}catch(e){}</script><!--[if !IE]>|xGv00|a48cc455a8e0bf8760653c0e7c3c9ca6<![endif]-->
+</body>
+			</html>
+		
+<!--[if !IE]>|xGv00|02ebd29962b5f99707db98a23a24aaa1<![endif]-->",
+}
+`;
