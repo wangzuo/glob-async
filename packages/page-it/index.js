@@ -25,29 +25,12 @@ async function pageIt(pageUrl, options = {}) {
     throw new Error(`statusCode ${resp.statusCode}: ${pageUrl}`);
   }
 
-  const ct = contentType.parse(resp);
+  const type = contentType.parse(resp);
   const charset =
-    ct.parameters && ct.parameters.charset ? ct.parameters.charset : 'utf8';
+    type.parameters && type.parameters.charset
+      ? type.parameters.charset
+      : 'utf-8';
   const html = iconv.decode(buf, charset);
-
-  // html4
-  const m = html.match(
-    /\<meta[\s]*http\-equiv=[\'\"]Content-Type[\'\"][\s]*content=[\'\"]text\/html;[\s]*charset=([a-zA-Z0-9\-\_]+)[\'\"][\s]*\/?>/im
-  );
-  if (m) {
-    const encoding = m[1].toLowerCase();
-    if (
-      encoding !== 'utf-8' &&
-      encoding !== 'utf8' &&
-      iconv.encodingExists(encoding)
-    ) {
-      return iconv.decode(buf, encoding);
-    }
-  }
-
-  // html5
-  // no need to handle this, usually utf-8
-
   const page = {
     href: resp.request.uri.href,
     html

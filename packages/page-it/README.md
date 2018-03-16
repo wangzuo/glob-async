@@ -1,6 +1,6 @@
 # page-it
 
-url -> html
+download html page with auto encoding
 
 ### Installation
 
