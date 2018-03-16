@@ -1,8 +1,9 @@
 {
   "name": "page-it",
   "main": "index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "download page",
+  "repository": "https://github.com/wangzuo/utils/tree/master/packages/page-it",
   "scripts": {
     "test": "jest"
   },
@@ -17,11 +18,5 @@
   "devDependencies": {
     "jest": "^22.4.2"
   },
-  "keywords": [
-    "http",
-    "request",
-    "page",
-    "scrapping",
-    "charset"
-  ]
+  "keywords": ["http", "request", "page", "scrapping", "charset"]
 }
